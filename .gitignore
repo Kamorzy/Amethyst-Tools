@@ -1,0 +1,33 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.vs/
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# fabric
+
+run/
+remappedSrc/
