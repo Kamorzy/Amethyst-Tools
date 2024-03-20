@@ -19,7 +19,7 @@ Amethyst tools are meant to be an early game alternative to rushing for diamond.
 |   Wood    |     59     |   2   |   0   |   0    |       15       |
 |   Stone   |    131     |   4   |   1   |   1    |       5        |
 |   Iron    |    250     |   6   |   2   |   2    |       14       |
-| Amethyst  |    1061    |  7.5  |   2   |   3    |       19       |
+| Amethyst  |    1061    |   7   |   2   |  2.5   |       19       |
 |  Diamond  |    1561    |   8   |   3   |   3    |       10       |
 | Netherite |    2031    |   9   |   4   |   4    |       15       |
 |    ---    |    ---     |  ---  |  ---  |  ---   |      ---       |
