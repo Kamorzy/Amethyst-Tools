@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "minecraft:blocks/budding_amethyst",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_cluster"
+        }
+      ]
+    }
+  ]
+}

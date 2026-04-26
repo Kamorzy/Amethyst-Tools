@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "amethyst_tools",
+  "version": "${version}",
+  "name": "Amethyst Tools",
+  "description": "Amethyst tools: Budget diamond. Increased enchantability, lower durability than diamond, as fast as diamond, can't mine obsidian, needs silk touch for amethyst clusters",
+  "authors": ["Kamorzy"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/amethyst-tools",
+    "sources": "https://github.com/Kamorzy/Amethyst-Tools",
+    "issues": "https://github.com/Kamorzy/Amethyst-Tools/issues"
+  },
+  "license": "LGPLv3",
+  "icon": "assets/amethyst_tools/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "kamorzy.amethyst_tools.AmethystToolsInitializer"
+    ],
+	"client": [
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.5",
+    "fabric-api": "*",
+    "java": ">=25",
+    "minecraft": ">=26.1"
+  }
+}
