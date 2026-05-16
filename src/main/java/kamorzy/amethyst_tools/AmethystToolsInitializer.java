@@ -9,6 +9,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.ShovelItem;
 
 import java.util.function.Function;
 
@@ -35,8 +36,13 @@ public class AmethystToolsInitializer implements ModInitializer {
 
     public static final Item AMETHYST_SHOVEL = register(
             "amethyst_shovel",
-            Item::new,
-            new Item.Properties().shovel(AmethystToolsMaterial.INSTANCE, 1.5F, -3.0F)
+            settings -> new ShovelItem(
+                    AmethystToolsMaterial.INSTANCE,
+                    1.5F,
+                    -3.0F,
+                    settings
+            ),
+            new Item.Properties()
     );
 
     public static final Item AMETHYST_SWORD = register(
