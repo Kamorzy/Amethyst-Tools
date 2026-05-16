@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "amethyst_tools:amethyst_sword",
+    "amethyst_tools:amethyst_pickaxe",
+    "amethyst_tools:amethyst_axe",
+    "amethyst_tools:amethyst_shovel",
+    "amethyst_tools:amethyst_hoe"
+  ]
+}
